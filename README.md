@@ -9,8 +9,9 @@ These include:
 ## 3. Blockchain Design
 ## 4. Blockchain Development
 ## 5. Blockchain Execution (runtime locally)
-  ## 6. Blockchain Testing
+## 6. Blockchain Testing
 
+__What is this?__
 The original idea behind this repository is based on the annoyance of robocalls and how a small blockchain solution might help catalog and automate a response to the FCC.   A recent article from Wall Street Journal discusses the original problem as well.  [The WSJ article can be found here (possible paywall article)](https://www.wsj.com/articles/why-there-are-so-many-robocalls-heres-what-you-can-do-about-them-1530610203?mod=hp_lead_pos8)
 
 ## 1.  Blockchain Requirements Analysis
@@ -43,13 +44,13 @@ Even though an extremely important part of any good blockchain design is to util
 ## 2.  Blockchain Architecture
 Attached is a mockup screen set of the application that will be running on top of the blockchain allowing the users to enter in a number that they recieve over the phone.   If the number that they got is the same as a number that was already logged, then they have the option of simply incrementing the counter to indicate the same call details came to them.
 
-## Blockchain Design
+## 3.  Blockchain Design
 
-## Blockchain Development
+## 4.  Blockchain Development
 (links and discussions to the codebase within the folder sets)
 
-## Blockchain Execution
+## 5.  Blockchain Execution
 (discussions about how to download the github repo and run it locally to play around with it)
 
-##  Blockchain Testing
+## 6.  Blockchain Testing
 (discussions about how to download the github repo and run the test locally (ganache/mocha/etc))
