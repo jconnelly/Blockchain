@@ -61,10 +61,10 @@ Bob is finally glad that there is a way to quickly address these annoying IRS an
 
 #### Technical Requirements
 * Quickly add just a phone number to the list of phone numbers in the system.
-    ** A label should be added to the main page on the left hand center side: "Add Quick Caller ID"
-    ** A text field should be added to the main page under the label created above
-    ** A button on the right side of the text field should simply say "Add" 
-    ** Clicking on the "Add" button should create a new row of information in the "Current Robocall Records" main frame
+    * A label should be added to the main page on the left hand center side: "Add Quick Caller ID"
+    * A text field should be added to the main page under the label created above
+    * A button on the right side of the text field should simply say "Add" 
+    * Clicking on the "Add" button should create a new row of information in the "Current Robocall Records" main frame
 
 #### Tasks
 
