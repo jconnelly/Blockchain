@@ -48,10 +48,23 @@ Even though an extremely important part of any good blockchain design is to util
 2. Bob enjoys his old cars and likes to restore them with vintage parts.  He as a network of other vintage car restorers that he meets up wtih occasionaly to share stories and trade parts with.  Unfortunately he hates that he gets calls from warranty companies offering an auto warranty for his vintage cars.  He has heard from his other auto restorers that they are getting calls like this all the time as well.   He wishes that there was an easy way to report these companies and their phone numbers to the government so they can do something about it.  
 
 #### User Stories
+Bob is finally glad that there is a way to quickly address these annoying IRS and warranty company calls.   He is able to copy the phone number of the company that calls him, open up a webpage on his computer or smart phone, and simply add the number and forget about it.   He knows that when he adds the number to system that it will automatically generate a letter and send it to the correct department at the FTC.   When he is particularly upset with the company that called him, he can easily go into the detailed information page and add more information to help the FTC identify where these calls are coming from and who they are going to, all without Bob giving out any of his personal information.  Sometimes when he has time, he looks at the other numbers to see if his other restorer friends has entered in a phone number that he has gotten as well, and how many times it has been logged.
 
 #### Functional Requirements
+* Quickly add just a phone number to the list of phone numbers in the system.
+* Add in a more detail phone call information link for further information input.
+* Show detail information page, including: Phone number, time of phone call, type of phone call received, and a method(button/link) of adding the information to the list of other numbers.
+* Show existing phone numbers that have been entered into the system.
+* Show existing phone numbers by the amount of times(count) they have been entered into the system.
+* Show whether that phone number has been reported and sent to the FTC.
+* Generate a form to send to the FTC directly that contains additional information necessary on the form, ie: Phone number, time of call, type of phone recieved on, and location (city/zipcode). 
 
 #### Technical Requirements
+* Quickly add just a phone number to the list of phone numbers in the system.
+    ** A label should be added to the main page on the left hand center side: "Add Quick Caller ID"
+    ** A text field should be added to the main page under the label created above
+    ** A button on the right side of the text field should simply say "Add" 
+    ** Clicking on the "Add" button should create a new row of information in the "Current Robocall Records" main frame
 
 #### Tasks
 
