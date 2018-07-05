@@ -61,17 +61,25 @@ Bob is finally glad that there is a way to quickly address these annoying IRS an
 
 #### Technical Requirements
 * Quickly add just a phone number to the list of phone numbers in the system.
-    * A label should be added to the main page on the left hand center side: "Add Quick Caller ID"
+    * A label should be added to the main page on the left hand center side
+    * The label should be: Add Quick Caller ID
     * A text field should be added to the main page under the label created above
+    * The text field should be pre-populated with light grey text: Caller ID Number
     * A button on the right side of the text field should simply say "Add" 
     * Clicking on the "Add" button should create a new row of information in the "Current Robocall Records" main frame
+    
+* Add in a more detail phone call information link for further information input.
+    * A label should be added to the main page on the right hand center side
+    * The label should be: Add Detailed Call
+    * A button should be directly under the label
+    * The button should have a label of: Add
 
 #### Tasks
 
 #### Testing Requirements
 
 ## 3.  Blockchain Architecture
-Attached is a mockup screen set of the application that will be running on top of the blockchain allowing the users to enter in a number that they recieve over the phone.   If the number that they got is the same as a number that was already logged, then they have the option of simply incrementing the counter to indicate the same call details came to them.
+The application should be an Ethereum based application as there is no need for a permissioned blockchain.   This will be a permissionless blockchain where the only identifiable 
 
 ## 4.  Blockchain Development
 (links and discussions to the codebase within the folder sets)
