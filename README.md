@@ -51,6 +51,7 @@ Even though an extremely important part of any good blockchain design is to util
 Bob is finally glad that there is a way to quickly address these annoying IRS and warranty company calls.   He is able to copy the phone number of the company that calls him, open up a webpage on his computer or smart phone, and simply add the number and forget about it.   He knows that when he adds the number to system that it will automatically generate a letter and send it to the correct department at the FTC.   When he is particularly upset with the company that called him, he can easily go into the detailed information page and add more information to help the FTC identify where these calls are coming from and who they are going to, all without Bob giving out any of his personal information.  Sometimes when he has time, he looks at the other numbers to see if his other restorer friends has entered in a phone number that he has gotten as well, and how many times it has been logged.
 
 #### Functional Requirements
+* The main page of the application will show a small handful of components
 * Quickly add just a phone number to the list of phone numbers in the system.
 * Add in a more detail phone call information link for further information input.
 * Show detail information page, including: Phone number, time of phone call, type of phone call received, and a method(button/link) of adding the information to the list of other numbers.
@@ -60,6 +61,14 @@ Bob is finally glad that there is a way to quickly address these annoying IRS an
 * Generate a form to send to the FTC directly that contains additional information necessary on the form, ie: Phone number, time of call, type of phone recieved on, and location (city/zipcode). 
 
 #### Technical Requirements
+* The main page of the application will show a small handful of components
+    * At the top of the main page will be a title bar
+    * The title bar should have a label: Robocall Logger
+    * There should be a label, text field and button for quickly adding a number
+    * There should be a label and button for addinga  detailed record
+    * There should be a large frame in the middle of the page with a label and one to many records listed 
+    * There should be a large footer button that will allow for creating a custom report to the FTC
+    
 * Quickly add just a phone number to the list of phone numbers in the system.
     * A label should be added to the main page on the left hand center side
     * The label should be: Add Quick Caller ID
@@ -73,6 +82,30 @@ Bob is finally glad that there is a way to quickly address these annoying IRS an
     * The label should be: Add Detailed Call
     * A button should be directly under the label
     * The button should have a label of: Add
+    
+* Show existing phone numbers that have been entered into the system.
+    * A new page should open up and contain a number of elements on the page
+    * At the top of the page will be a title bar, identical to the title bar on the main page
+    * A label should be present and centered under the title bar: Detailed Robocall Information
+    * There should be a label on the left portion of the page: Caller ID Number
+    * There should be a text field to the right of the label creaed above.
+    * There should be a label on the left portion of the page, under the previous label:  Time of call
+    * There should be a text field to the right of the previous label, ensure that the time is 12Hour clock with AM/PM
+    * There should be a label on the left portion of teh page, under the precious label:  Home or Cellphone
+    * There should be a drop down field to the right of the previous label.  
+    * The values in the drop down field should be: Home, Cellphone, Office
+    * There should be a button centered on the page with a label of: Add
+    * Clicking on the "Add" button will make the application go back to the main page and create a new row of information in the "Current Roboball Records" main frame
+
+* Show existing phone numbers that have been entered into the system.
+    * The main page of the application should show a listing of one to many new records in the "Current Robocall Records" frame
+    
+* Show existing phone numbers by the amount of times(count) they have been entered into the system.
+
+* Show whether that phone number has been reported and sent to the FTC.
+    * The main page, Current Robocall Records frame, should contain a checkbox, showing whether or not the caller ID number has been reported to the FTC or not.
+
+* Generate a form to send to the FTC directly that contains additional information necessary on the form, ie: Phone number, time of call, type of phone recieved on, and location (city/zipcode). 
 
 #### Tasks
 
