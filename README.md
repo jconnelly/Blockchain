@@ -18,7 +18,8 @@ The original idea behind this repository is based on the annoyance of robocalls 
 The application will consist of a small set of screens.   The screens will allow the user to add a robocall number to the list in a "quick" fashion.  Or there will be a method to add the robocall number in a more detailed fashion with additional information.   Each of the added robocall numbers will create a transaction that will be put on the blockchain.  After a given number of calls are "catalogued", then the system will automatically create and send a boiler-plate response to the FTC (Federal Trade Commision).
 
 Screen mockups:
-
+![Main Page Mockup](https://github.com/jconnelly/Blockchain/blob/master/Robocall_Main_Page.png "Robocall Main Page Mockup")
+![Detail Page Mockup](https://github.com/jconnelly/Blockchain/blob/master/Robocall_Detail_Page.png "Robocall Detail Page Mockup")
 
 ## 2.  Blockchain Requirements Analysis
 This section will document the 6 elements of a good requirements based design for the robocall application, plus the 7th element of Testing.   
@@ -34,8 +35,17 @@ This section will document the 6 elements of a good requirements based design fo
 Even though an extremely important part of any good blockchain design is to utilize Test Driven Development and test thoroughly in each of the steps listed in the top section above.  It would be very time consuming to document this all here and I have instead chosen to simply pull all the testing down and into the last section.
 
 #### Guiding Principals
+* Will the application be feature heavy to account for all scenarios possible?
+* Will the application be straight forward and easy to use so no help guides or additional documentation will be necessary?
+* Will the application be centrailized or decentralized?
+* Will the application be smart enough to validate input information on the fly?
+* Will the application be worthwhile to the users?
+* Does the application need to take into account user security or privacy?
 
 #### Personas
+1. Bob is a manager at a local restaurant.  He is upset that ever year from January to April, he gets constant calls from people claiming to be from the IRS when they are clearly not.   He wants to have a way to report these phony calls to the proper people who can do something about it, but doesn't have the time to go through all the governement sites to get the information.   Bob also doesn't want to fill out a lot of additional forms simply to add the fake robocall caller ID's.  This process of giving these fake callers information to a website takes too much time out of his day.
+
+2. Bob enjoys his old cars and likes to restore them with vintage parts.  He as a network of other vintage car restorers that he meets up wtih occasionaly to share stories and trade parts with.  Unfortunately he hates that he gets calls from warranty companies offering an auto warranty for his vintage cars.  He has heard from his other auto restorers that they are getting calls like this all the time as well.   He wishes that there was an easy way to report these companies and their phone numbers to the government so they can do something about it.  
 
 #### User Stories
 
