@@ -112,7 +112,13 @@ Bob is finally glad that there is a way to quickly address these annoying IRS an
 #### Testing Requirements
 
 ## 3.  Blockchain Architecture
-The application should be an Ethereum based application as there is no need for a permissioned blockchain.   This will be a permissionless blockchain where the only identifiable 
+The application would be an Ethereum based application as there is no need for a permissioned blockchain.  This is a fairly straight-forward application that doesn't need to maintain or even contain any personal identifiable information (PII).  
+
+The application front end will be developed using React frameworks to build the User Interface.  The React components will then interface with the Ethereum blockchain to log the numbers to the blocks.  
+
+The application blockchain components will be developed using Solidity.  Deploying the components locally will be completely using Truffle and Ganache.
+
+The application blockchain testing will be completed using Mocha.  Test cases will be written to handle each of items listed in the Functional Requirements section listed above. 
 
 ## 4.  Blockchain Development
 (links and discussions to the codebase within the folder sets)
