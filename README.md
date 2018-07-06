@@ -3,7 +3,6 @@ This repository is put together to demonstrate my skills in both Ethereum Solidi
 
 __NOTE:__  There will be both an Ethereum and Hyperledger Fabric implementation committed to this repository.  The initial implementation that is being flushed out is for an Ethereum implementation using Solidity, Truffle frameworks and Mocha for testing.   Following the completion of this will be the Hyperledger Fabric implementation with a deployable .BNA file that can be run on IBM's Bluemix DAPP.
 
-These include: 
 ## 1. Application Overview
 ## 2. Blockchain Requirements Analysis
 ## 3. Blockchain Architecture
