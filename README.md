@@ -11,10 +11,10 @@ These include:
 ## 5. Blockchain Execution (runtime locally)
 ## 6. Blockchain Testing
 
+## 1.  Application Overview
 __What is this?__
 The original idea behind this repository is based on the annoyance of robocalls and how a small blockchain solution might help catalog and automate a response to the FTC.   A recent article from Wall Street Journal discusses the original problem as well.  [The WSJ article can be found here (possible paywall article)](https://www.wsj.com/articles/why-there-are-so-many-robocalls-heres-what-you-can-do-about-them-1530610203?mod=hp_lead_pos8)
 
-## 1.  Application Overview
 The application will consist of a small set of screens.  The screens will allow the user to add a robocall number to the list in a "quick" fashion.  Or there will be a method to add the robocall number in a more detailed fashion with additional information.   Each of the added robocall numbers will create a transaction that will be put on the blockchain.  After a given number of calls are "cataloged", then the system will automatically create and send a boiler-plate response to the FTC (Federal Trade Commision).
 
 Screen mockups:
