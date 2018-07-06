@@ -151,6 +151,8 @@ Contract design/layout:
 The full contract won't be listed here, however, it can be viewed in the ethereum_project/ethereum folder.  The function declarations(frameworks) are listed here: 
 
 ```
+pragma solidity ^0.4.17;
+
 contract RobocallFactory {
     function createRobocallRecord
     function getRobocallRecords
