@@ -136,16 +136,19 @@ The application blockchain testing will be completed using Mocha.  Test cases wi
 ## 4.  Blockchain Development
 (TO DO: links and discussions to the codebase within the folder sets)
 Code sets are broken out into multiple folders and groups in the project according to functionality:
-* components
+* /components
     * contains reusable components for the server side pages
-* ethereum
+* /ethereum
     * contains contract(s) and build(JSON) scripts
-* pages
+* /pages
     * contains server side (.js) files that will render the application
-* test
+* /test
     * contains test cases 
         
-Initial contract development was created in Remix, to test contract creation and initial testing.   The contract was 
+Initial contract development was created in Remix, to test contract creation and initial testing.   The contract was then copied down into the /ethereum directory to be compiled down(create address) and used by the other components of the application.  
+
+Contract design/layout:
+The smart contract for this application is designed with the following functionality.   
 
 ## 5.  Blockchain Execution
 (TO DO: discussions about how to download the github repo and run it locally to play around with it)
