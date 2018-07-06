@@ -148,7 +148,22 @@ Code sets are broken out into multiple folders and groups in the project accordi
 Initial contract development was created in Remix, to test contract creation and initial testing.   The contract was then copied down into the /ethereum directory to be compiled down(create address) and used by the other components of the application.  
 
 Contract design/layout:
-The smart contract for this application is designed with the following functionality.   
+The full contract won't be listed here, however, it can be viewed in the ethereum_project/ethereum folder.  The function declarations(frameworks) are listed here: 
+
+```
+contract RobocallFactory {
+    function createRobocallRecord
+    function getRobocallRecords
+}
+
+contract Robocaller {
+    struct Caller
+    function Robocaller
+    function getRobocallCount
+    function getFTCReported
+    function createUniqueFTCReport
+}    
+```
 
 ## 5.  Blockchain Execution
 (TO DO: discussions about how to download the github repo and run it locally to play around with it)
