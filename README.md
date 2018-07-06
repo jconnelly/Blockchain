@@ -1,10 +1,10 @@
 # Welcome to my Blockchain demonstration repository
 This repository is put together to demonstrate my skills in both Ethereum Solidity and Hyperledger Fabric.   I have included a number of different elements to demonstrate as part of the standard SDLC process (plus business requirements).   
 
-__NOTE:__  There will be both an Ethereum and Hyperledger Fabric implementation committed to this repository.  The initial implementation that is being flushed out is for an Ethereum implementation using Solidity.   Following the completion of this will be the Hyperledger Fabric implementation with a deployable .BNA file that can be run on IBM's Bluemix DAPP.
+__NOTE:__  There will be both an Ethereum and Hyperledger Fabric implementation committed to this repository.  The initial implementation that is being flushed out is for an Ethereum implementation using Solidity, Truffle frameworks and Mocha for testing.   Following the completion of this will be the Hyperledger Fabric implementation with a deployable .BNA file that can be run on IBM's Bluemix DAPP.
 
 These include: 
-## 1. Application Design
+## 1. Application Overview
 ## 2. Blockchain Requirements Analysis
 ## 3. Blockchain Architecture
 ## 4. Blockchain Development
@@ -12,10 +12,10 @@ These include:
 ## 6. Blockchain Testing
 
 __What is this?__
-The original idea behind this repository is based on the annoyance of robocalls and how a small blockchain solution might help catalog and automate a response to the FCC.   A recent article from Wall Street Journal discusses the original problem as well.  [The WSJ article can be found here (possible paywall article)](https://www.wsj.com/articles/why-there-are-so-many-robocalls-heres-what-you-can-do-about-them-1530610203?mod=hp_lead_pos8)
+The original idea behind this repository is based on the annoyance of robocalls and how a small blockchain solution might help catalog and automate a response to the FTC.   A recent article from Wall Street Journal discusses the original problem as well.  [The WSJ article can be found here (possible paywall article)](https://www.wsj.com/articles/why-there-are-so-many-robocalls-heres-what-you-can-do-about-them-1530610203?mod=hp_lead_pos8)
 
-## 1.  Application Design
-The application will consist of a small set of screens.   The screens will allow the user to add a robocall number to the list in a "quick" fashion.  Or there will be a method to add the robocall number in a more detailed fashion with additional information.   Each of the added robocall numbers will create a transaction that will be put on the blockchain.  After a given number of calls are "catalogued", then the system will automatically create and send a boiler-plate response to the FTC (Federal Trade Commision).
+## 1.  Application Overview
+The application will consist of a small set of screens.  The screens will allow the user to add a robocall number to the list in a "quick" fashion.  Or there will be a method to add the robocall number in a more detailed fashion with additional information.   Each of the added robocall numbers will create a transaction that will be put on the blockchain.  After a given number of calls are "cataloged", then the system will automatically create and send a boiler-plate response to the FTC (Federal Trade Commision).
 
 Screen mockups:
 ![Main Page Mockup](https://github.com/jconnelly/Blockchain/blob/master/Robocall_Main_Page.png "Robocall Main Page Mockup")
@@ -99,17 +99,29 @@ Bob is finally glad that there is a way to quickly address these annoying IRS an
 
 * Show existing phone numbers that have been entered into the system.
     * The main page of the application should show a listing of one to many new records in the "Current Robocall Records" frame
+    * Each individual number entered should have its own row in the frame, containing the robocall phone number, the times it has been entered into the system and an indicator for whether number has been sent to the FTC 
+    * Each row should contain the following data:
+        * Label: Robocall Number
+        * Under the "Robocall Number" label will be a data driven label containing the robocall number
     
 * Show existing phone numbers by the amount of times(count) they have been entered into the system.
-
+    * The main page, Current Robocall Records frame, should contain a number, driven by the phone number record count, that show the amount of times people have entered the number
+        * Label: Calls Cataloged
+        * Under the "Calls Cataloged" label will be a data driven label containing the number of time a number has been recorded to the blockchain
+    
 * Show whether that phone number has been reported and sent to the FTC.
     * The main page, Current Robocall Records frame, should contain a checkbox, showing whether or not the caller ID number has been reported to the FTC or not.
+        * Label: Reported?
+        * Under the "Reported?" label will be a checkbox indicating where the number has been reported to the FTC
 
 * Generate a form to send to the FTC directly that contains additional information necessary on the form, ie: Phone number, time of call, type of phone recieved on, and location (city/zipcode). 
+    * Clicking the "Generate an FTC Report" button will take the user to the generate report page, where they have the ability to create their own one-off report
 
 #### Tasks
+(TO DO:  Add in the task list and grid)
 
 #### Testing Requirements
+(TO DO:  Add in the testing overview)
 
 ## 3.  Blockchain Architecture
 The application would be an Ethereum based application as there is no need for a permissioned blockchain.  This is a fairly straight-forward application that doesn't need to maintain or even contain any personal identifiable information (PII).  
@@ -120,11 +132,13 @@ The application blockchain components will be developed using Solidity.  Deployi
 
 The application blockchain testing will be completed using Mocha.  Test cases will be written to handle each of items listed in the Functional Requirements section listed above. 
 
+(TO DO:  Diagram of architecture)
+
 ## 4.  Blockchain Development
-(links and discussions to the codebase within the folder sets)
+(TO DO: links and discussions to the codebase within the folder sets)
 
 ## 5.  Blockchain Execution
-(discussions about how to download the github repo and run it locally to play around with it)
+(TO DO: discussions about how to download the github repo and run it locally to play around with it)
 
 ## 6.  Blockchain Testing
-(discussions about how to download the github repo and run the test locally (ganache/mocha/etc))
+(TO DO: discussions about how to download the github repo and run the test locally (ganache/mocha/etc))
