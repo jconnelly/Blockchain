@@ -134,7 +134,6 @@ The application blockchain testing will be completed using Mocha.  Test cases wi
 (TO DO:  Diagram of architecture)
 
 ## 4.  Blockchain Development
-(TO DO: links and discussions to the codebase within the folder sets)
 Code sets are broken out into multiple folders and groups in the project according to functionality:
 * /components
     * contains reusable components for the server side pages
@@ -145,7 +144,7 @@ Code sets are broken out into multiple folders and groups in the project accordi
 * /test
     * contains test cases 
         
-Initial contract development was created in Remix, to test contract creation and initial testing.   The contract was then copied down into the /ethereum directory to be compiled down(create address) and used by the other components of the application.  
+Initial contract development was created in Remix, to build the contract and initial testing.   The contract was then copied down into the /ethereum/contracts directory to be compiled down(create address) and used by the other components of the application.  
 
 Contract design/layout:
 The full contract won't be listed here, however, it can be viewed in the ethereum_project/ethereum folder.  The function declarations(frameworks) are listed here: 
@@ -159,10 +158,11 @@ contract RobocallFactory {
 }
 
 contract Robocaller {
-    struct Caller
+    struct RobocallerInformation
     function Robocaller
-    function getRobocallCount
+    function createNewRobocallRecord
     function getFTCReported
+    function getRobocallCount
     function createUniqueFTCReport
 }    
 ```
