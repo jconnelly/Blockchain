@@ -123,15 +123,22 @@ Bob is finally glad that there is a way to quickly address these annoying IRS an
 There will need to be a set of requirements around testing this application.   The testing needs to contain both front end testing of the user interface pages, as well as, the technical components behind the scenes.
 
 Front End - User Interface
-To perform a set of tests on the user interface, a series of questions and answers can be created to effectively test a small application such as this:
+To perform a set of tests on the user interface, a series of questions and Yes/No answers can be created to effectively test a small application such as this:
 1. Did the main page load?  Y/N
 2. Was I able to enter in a phone number in the "Quick Caller ID" section?  Y/N
 3. Did the "Quick Caller ID - Add" button work and give me a response saying my number was added? Y/N
 4. When I clicked the "Add" button on "Add Detailed Caller Info", did it open a new screen?  Y/N
 5. Does the "Current Robocall Records" show a listing of numbers and information?  Y/N
 6. When I clicked the "Generate an FTC Report" button, did it open a new screen?  Y/N
-7. (TODO: Questions for detailed caller info)
-8. (TODO: Questions for generate ftc report)
+7. When I am viewing the "Detailed Robocall Information" page, is the caller id number field empty?  Y/N
+8. When I am viewing the "Detailed Robocall Information" page, does the caller id number field accept my number?  Y/N
+9. When I am viewing the "Detailed Robocall Information" page, is the time of call field empty?  Y/N
+10. When I am viewing the "Detailed Robocall Information" page, does the time of call field accept a time?  Y/N
+11. When I am viewing the "Detailed Robocall Information" page, does the home or cell drop down field have two selections?  Y/N
+12. When I am viewing the "Detailed Robocall Information" page, can I select one of the options in the home or cell dropdown?  Y/N
+13. When I am viewing the "Detailed Robocall Information" page, does the Add button appear?  Y/N
+14. When I am viewing the "Detailed Robocall Information" page, does the Add button work when pressed?  Y/N
+15. When I am viewing the "Detailed Robocall Information" page, when the Add button is pressed did the page refresh back to the main index page?   Y/N
 
 System - Application
 To perform a set of tests on the application backend itself, these questions will be built inside of test case written in Javascript.  These test cases could be separated into a suite of tests, but for this short application, we will just consolidate them into one test file, located in the "test" folder, under each blockchain system folder.
@@ -145,7 +152,7 @@ The application would be an Ethereum based application as there is no need for a
 
 The application front end will be developed using React frameworks to build the User Interface.  The React components will then interface with the Ethereum blockchain to log the numbers to the blocks.  
 
-The application blockchain components will be developed using Solidity.  Deploying the components locally will be completely using Truffle and Ganache.
+The application blockchain components will be developed using Solidity.  Deploying the components locally will be completed using NPM and NodeJS
 
 The application blockchain testing will be completed using Mocha.  Test cases will be written to handle each of items listed in the Functional Requirements section listed above. 
 
@@ -199,7 +206,14 @@ To run the Ethereum Project, here are the following instructions:
 6. Navigate to the ethereum folder
 7. Command:  node compile.js
 8. Command:  node deploy.js
-9. Once the project has deployed locally to the "test" network, configured in the 
+9. The command prompt/terminal screen should show two messages:
+        9a.  Attempting to deploy from account 0x........ (this will be an actual address here)
+        9b.  Contract deployed to:  0x....... (this will be an actual address here)
+10. At this point the command prompt/terminal window will most likely be stuck in this position with no way to enter input.   Ctrl+Z to stop the service to allow for further command entries
+11. Command:  npm run dev
+12. This will start the server and open a port to allow for viewing the server side, React, application.   The default setting for this server is port: 3000
+        12a.  Ready on localhost:3000
+13. Open a web browser (preferred is Chrome) and enter in http://localhost:3000
 
 ## 6.  Blockchain Testing
 This section describes the step necessary to run and test the test case that is created in the Test folder under each of the blockchain systems.   In order to run the tests it will be necessary to make sure that your system is setup the same way as in Section 5.  Blockchain Execution.    Once that configuration and setup is complete, then the test can be run properly. 
@@ -207,6 +221,14 @@ This section describes the step necessary to run and test the test case that is 
 To run the Ethereum Project, here are the following instructions:
 1. Ensure that you are still in the same terminal or command prompt window fron Section 5 Blockchain Execution above.  This should ensure that all of the setup and deployment has been done from steps 1 thru 8.
 2. Navigate to the root of the project, the folder "ethereum_project"
-3. Command:  npm test
-4. The command will run the test file in the "test" folder and give a set of pass or fail messages.   If all of the files from the downloaded repository have not changed, then the messages should show (x) passing tests.
+3. Command:  npm run test
+4. The command will run the test file in the "test" folder and give a set of pass or fail messages.   If all of the files from the downloaded repository have not changed, then the messages should show (5) passing tests. The following should appear:
+
+(green checkmark)deploys a factory and a robocaller
+(green checkmark)sets the new user as a robocall creator
+(green checkmark)allows a user to create a new robocall record on the system (timing will appear here)
+(green checkmark)checks to see how many robocall records are on the system (timing will appear here)
+(green checkmark)generates a new FTC record (timing will appear here)
+
+(in green text) 5 passing (timing will appear here)
 
