@@ -168,7 +168,27 @@ contract Robocaller {
 ```
 
 ## 5.  Blockchain Execution
-(TO DO: discussions about how to download the github repo and run it locally to play around with it)
+In order to run the program by itself, in a local environment on your own machine, it will be necessary to have a properly configured environment first.   This set of instructions assumes that you have NPM installed on your machine and can run command line instructions.   If it is necessary to install NPM, follow the instructions here: https://www.npmjs.com/get-npm
+
+*NOTE:  Please understand that the versions of the programs that will be installed under NPM were the versions that I used when writing and testing the application.   They may work with newer versions or some of the functions may be deprecated as well. 
+
+To run the Ethereum Project, here are the following instructions:
+1. Create a local folder that will be used to pull down the repository
+2. Open a command prompt or terminal window and navigate to the folder location created above
+3. Command:  git clone jconnelly/Blockchain/ethereum_project
+4. Command:  npm init       (continue to hit return for each of the questions/options until done)
+5. Command:  npm install --save ganache-cli mocha solc fs-extra web3@1.0.0-beta.26 next-routes semantic-ui-react semantic-ui-css next@4.1.4 react react-dom truffle-hdwallet-provider
+6. Navigate to the ethereum folder
+7. Command:  node compile.js
+8. Command:  node deploy.js
+9. Once the project has deployed locally to the "test" network, configured in the 
 
 ## 6.  Blockchain Testing
-(TO DO: discussions about how to download the github repo and run the test locally (ganache/mocha/etc))
+This section describes the step necessary to run and test the test case that is created in the Test folder under each of the blockchain systems.   In order to run the tests it will be necessary to make sure that your system is setup the same way as in Section 5.  Blockchain Execution.    Once that configuration and setup is complete, then the test can be run properly. 
+
+To run the Ethereum Project, here are the following instructions:
+1. Ensure that you are still in the same terminal or command prompt window fron Section 5 Blockchain Execution above.  This should ensure that all of the setup and deployment has been done from steps 1 thru 8.
+2. Navigate to the root of the project, the folder "ethereum_project"
+3. Command:  npm test
+4. The command will run the test file in the "test" folder and give a set of pass or fail messages.   If all of the files from the downloaded repository have not changed, then the messages should show (x) passing tests.
+
