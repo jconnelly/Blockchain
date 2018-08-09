@@ -207,12 +207,12 @@ To run the Ethereum Project, here are the following instructions:
 7. Command:  node compile.js
 8. Command:  node deploy.js
 9. The command prompt/terminal screen should show two messages:
-        9a.  Attempting to deploy from account 0x........ (this will be an actual address here)
-        9b.  Contract deployed to:  0x....... (this will be an actual address here)
+* a.  Attempting to deploy from account 0x........ (this will be an actual address here)
+* b.  Contract deployed to:  0x....... (this will be an actual address here)
 10. At this point the command prompt/terminal window will most likely be stuck in this position with no way to enter input.   Ctrl+Z to stop the service to allow for further command entries
 11. Command:  npm run dev
 12. This will start the server and open a port to allow for viewing the server side, React, application.   The default setting for this server is port: 3000
-        12a.  Ready on localhost:3000
+* a.  Ready on localhost:3000
 13. Open a web browser (preferred is Chrome) and enter in http://localhost:3000
 
 ## 6.  Blockchain Testing
