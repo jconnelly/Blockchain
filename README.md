@@ -224,11 +224,11 @@ To run the Ethereum Project, here are the following instructions:
 3. Command:  npm run test
 4. The command will run the test file in the "test" folder and give a set of pass or fail messages.   If all of the files from the downloaded repository have not changed, then the messages should show (5) passing tests. The following should appear:
 
-(green checkmark)deploys a factory and a robocaller
-(green checkmark)sets the new user as a robocall creator
-(green checkmark)allows a user to create a new robocall record on the system (timing will appear here)
-(green checkmark)checks to see how many robocall records are on the system (timing will appear here)
-(green checkmark)generates a new FTC record (timing will appear here)
+* (green checkmark)deploys a factory and a robocaller
+* (green checkmark)sets the new user as a robocall creator
+* (green checkmark)allows a user to create a new robocall record on the system (timing will appear here)
+* (green checkmark)checks to see how many robocall records are on the system (timing will appear here)
+* (green checkmark)generates a new FTC record (timing will appear here)
 
-(in green text) 5 passing (timing will appear here)
+* (in green text) 5 passing (timing will appear here)
 
