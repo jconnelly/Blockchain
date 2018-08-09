@@ -3,7 +3,7 @@ const ganache = require('ganache-cli');
 const Web3 = require('web3');
 const web3 = new Web3(ganache.provider());
 
-const compiledFactory = require('../ethereum/build/RobocallFactoryjson');
+const compiledFactory = require('../ethereum/build/RobocallFactory.json');
 const compiledRobocaller = require('../ethereum/build/Robocaller.json');
 
 let accounts;
