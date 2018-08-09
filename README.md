@@ -7,9 +7,9 @@ __NOTE:__  There will be both an Ethereum and Hyperledger Fabric implementation 
 ## 2. Blockchain Requirements Analysis
 ## 3. Blockchain Architecture
 ## 4. Blockchain Development
-## 5. Blockchain Execution (runtime locally)
+## 5. Blockchain Execution
 ## 6. Blockchain Testing
-
+---------------------------------------------------
 ## 1.  Application Overview
 __What is this?__
 The original idea behind this repository is based on the annoyance of robocalls and how a small blockchain solution might help catalog and automate a response to the FTC.   A recent article from Wall Street Journal discusses the original problem as well.  [The WSJ article can be found here (possible paywall article)](https://www.wsj.com/articles/why-there-are-so-many-robocalls-heres-what-you-can-do-about-them-1530610203?mod=hp_lead_pos8)
@@ -120,7 +120,25 @@ Bob is finally glad that there is a way to quickly address these annoying IRS an
 (TO DO:  Add in the task list and grid)
 
 #### Testing Requirements
-(TO DO:  Add in the testing overview)
+There will need to be a set of requirements around testing this application.   The testing needs to contain both front end testing of the user interface pages, as well as, the technical components behind the scenes.
+
+Front End - User Interface
+To perform a set of tests on the user interface, a series of questions and answers can be created to effectively test a small application such as this:
+1. Did the main page load?  Y/N
+2. Was I able to enter in a phone number in the "Quick Caller ID" section?  Y/N
+3. Did the "Quick Caller ID - Add" button work and give me a response saying my number was added? Y/N
+4. When I clicked the "Add" button on "Add Detailed Caller Info", did it open a new screen?  Y/N
+5. Does the "Current Robocall Records" show a listing of numbers and information?  Y/N
+6. When I clicked the "Generate an FTC Report" button, did it open a new screen?  Y/N
+7. (TODO: Questions for detailed caller info)
+8. (TODO: Questions for generate ftc report)
+
+System - Application
+To perform a set of tests on the application backend itself, these questions will be built inside of test case written in Javascript.  These test cases could be separated into a suite of tests, but for this short application, we will just consolidate them into one test file, located in the "test" folder, under each blockchain system folder.
+1.  Test the creation of the factory method to create a new robocaller instance
+2.  Test the creation of a new robocall record 
+3.  Test the creation of a new ftc report
+4.  Test the number of current robocall records
 
 ## 3.  Blockchain Architecture
 The application would be an Ethereum based application as there is no need for a permissioned blockchain.  This is a fairly straight-forward application that doesn't need to maintain or even contain any personal identifiable information (PII).  
