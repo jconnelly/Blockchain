@@ -198,22 +198,7 @@ In order to run the program by itself, in a local environment on your own machin
 *NOTE:  Please understand that the versions of the programs that will be installed under NPM were the versions that I used when writing and testing the application.   They may work with newer versions or some of the functions may be deprecated as well. 
 
 To run the Ethereum Project, here are the following instructions:
-1. Create a local folder that will be used to pull down the repository
-2. Open a command prompt or terminal window and navigate to the folder location created above
-3. Command:  git clone jconnelly/Blockchain/ethereum_project
-4. Command:  npm init       (continue to hit return for each of the questions/options until done)
-5. Command:  npm install --save ganache-cli mocha solc fs-extra web3@1.0.0-beta.26 next-routes semantic-ui-react semantic-ui-css next@4.1.4 react react-dom truffle-hdwallet-provider
-6. Navigate to the ethereum folder
-7. Command:  node compile.js
-8. Command:  node deploy.js
-9. The command prompt/terminal screen should show two messages:
-* a.  Attempting to deploy from account 0x........ (this will be an actual address here)
-* b.  Contract deployed to:  0x....... (this will be an actual address here)
-10. At this point the command prompt/terminal window will most likely be stuck in this position with no way to enter input.   Ctrl+Z to stop the service to allow for further command entries
-11. Command:  npm run dev
-12. This will start the server and open a port to allow for viewing the server side, React, application.   The default setting for this server is port: 3000
-* a.  Ready on localhost:3000
-13. Open a web browser (preferred is Chrome) and enter in http://localhost:3000
+(Removing until the project is complete, just in case)
 
 ## 6.  Blockchain Testing
 This section describes the step necessary to run and test the test case that is created in the Test folder under each of the blockchain systems.   In order to run the tests it will be necessary to make sure that your system is setup the same way as in Section 5.  Blockchain Execution.    Once that configuration and setup is complete, then the test can be run properly. 
