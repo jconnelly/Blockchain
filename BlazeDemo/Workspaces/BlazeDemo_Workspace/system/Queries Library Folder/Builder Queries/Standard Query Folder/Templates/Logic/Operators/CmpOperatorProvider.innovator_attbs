@@ -1,0 +1,20 @@
+#Extended attributes for Innovator file-based repository (directory: 'CmpOperatorProvider')
+#Tue Aug 03 19:00:28 MST 2021
+contentType=Provider
+entryLastCheckInTime=8/3/21 7\:00 PM
+entryLastCheckInUser=jconnelly
+guid=L3CLAFM6T4pO9IDP0RyHB69V8dA
+innovatorDisplayName=CmpOperatorProvider
+innovatorItemCreationId=jconnelly
+innovatorItemVersionId=1
+innovatorLastModifiedUser=jconnelly
+innovatorName=CmpOperatorProvider
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=None
+target=SRL
+type=Type Operator

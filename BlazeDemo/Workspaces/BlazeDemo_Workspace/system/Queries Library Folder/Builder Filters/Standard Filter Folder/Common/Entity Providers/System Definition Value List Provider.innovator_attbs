@@ -1,0 +1,21 @@
+#Extended attributes for Innovator file-based repository (directory: 'System Definition Value List Provider')
+#Tue Aug 03 19:00:27 MST 2021
+contentType=Provider
+entryLastCheckInTime=8/3/21 7\:00 PM
+entryLastCheckInUser=jconnelly
+guid=DV6R2Fyr7nv1IDo7X3X8feglTGy
+innovatorDisplayName=System Definition Value List Provider
+innovatorItemCreationId=jconnelly
+innovatorItemVersionId=1
+innovatorLastModifiedUser=jconnelly
+innovatorName=System Definition Value List Provider
+managementProperty.Simulation\ Role=<None>
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=None
+target=Repository
+type=Value List

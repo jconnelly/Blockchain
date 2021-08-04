@@ -1,0 +1,22 @@
+#Extended attributes for Innovator file-based repository (directory: 'JavaLastAuthorFilter')
+#Tue Aug 03 19:00:27 MST 2021
+contentType=Template
+entryLastCheckInTime=8/3/21 7\:00 PM
+entryLastCheckInUser=jconnelly
+guid=H6nySjFOuQG7lmLz3BLfGLbOpsC
+innovatorDisplayName=AuthorOfLatestVersion
+innovatorItemCreationId=jconnelly
+innovatorItemVersionId=1
+innovatorLastModifiedUser=jconnelly
+innovatorName=JavaLastAuthorFilter
+isSystemTemplate=true
+managementProperty.Source\ Reference=
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=None
+target=Repository
+type=XML

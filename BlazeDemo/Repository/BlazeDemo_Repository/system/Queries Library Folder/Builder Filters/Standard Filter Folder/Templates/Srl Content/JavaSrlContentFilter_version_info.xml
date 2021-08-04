@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<VersionInfoTable>
+	<ItemName>JavaSrlContentFilter</ItemName>
+	<IsEntryDeleted>false</IsEntryDeleted>
+	<VersionElement VersionId="1">
+		<User>jconnelly</User>
+		<Comment>Sets up system folder</Comment>
+		<Timestamp>4 Aug 2021 02:00:18 GMT</Timestamp>
+	</VersionElement>
+</VersionInfoTable>

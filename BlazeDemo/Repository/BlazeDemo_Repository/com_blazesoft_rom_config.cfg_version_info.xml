@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<VersionInfoTable>
+	<ItemName>com_blazesoft_rom_config.cfg</ItemName>
+	<IsEntryDeleted>false</IsEntryDeleted>
+	<VersionElement VersionId="1">
+		<User>jconnelly</User>
+		<Comment>Creation</Comment>
+		<Timestamp>4 Aug 2021 02:00:23 GMT</Timestamp>
+	</VersionElement>
+</VersionInfoTable>

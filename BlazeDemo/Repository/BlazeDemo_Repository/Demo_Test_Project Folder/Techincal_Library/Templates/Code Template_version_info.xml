@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<VersionInfoTable>
+	<ItemName>Code Template</ItemName>
+	<IsEntryDeleted>false</IsEntryDeleted>
+	<VersionElement VersionId="1">
+		<User>jconnelly</User>
+		<Comment>New project folders and files</Comment>
+		<Timestamp>4 Aug 2021 02:03:28 GMT</Timestamp>
+	</VersionElement>
+</VersionInfoTable>

@@ -1,0 +1,22 @@
+#Extended attributes for Innovator file-based repository (directory: 'Query SubType Entity Association Provider')
+#Tue Aug 03 19:00:27 MST 2021
+contentType=Provider
+entryLastCheckInTime=8/3/21 7\:00 PM
+entryLastCheckInUser=jconnelly
+guid=3BLt7VnPU1YIUgB8ua7OEyZxl4H
+innovatorDisplayName=Query SubType Entity Association Provider
+innovatorItemCreationId=jconnelly
+innovatorItemVersionId=1
+innovatorLastModifiedUser=jconnelly
+innovatorName=Query SubType Entity Association Provider
+isSystemTemplate=true
+managementProperty.Source\ Reference=
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=None
+target=Repository
+type=Association

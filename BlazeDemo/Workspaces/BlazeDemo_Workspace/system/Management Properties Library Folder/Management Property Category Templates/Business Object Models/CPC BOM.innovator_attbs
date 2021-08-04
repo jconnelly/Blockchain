@@ -1,0 +1,15 @@
+#Extended attributes for Innovator file-based repository (directory: 'CPC BOM')
+#Tue Aug 03 19:00:25 MST 2021
+contentType=Template
+entryLastCheckInTime=8/3/21 7\:00 PM
+entryLastCheckInUser=jconnelly
+guid=15qGh5N5hK7RourwFX8j3sw2RDu
+innovatorDisplayName=CPC BOM
+innovatorItemCreationId=jconnelly
+innovatorItemVersionId=1
+innovatorLastModifiedUser=jconnelly
+innovatorName=CPC BOM
+isSystemTemplate=true
+subType=Management Property Category
+target=Repository
+type=Management Properties Definition

@@ -1,0 +1,16 @@
+#Extended attributes for Innovator file-based repository (directory: 'DotNET BOM')
+#Tue Aug 03 19:00:25 MST 2021
+contentType=Template
+dotNetAssembly=
+entryLastCheckInTime=8/3/21 7\:00 PM
+entryLastCheckInUser=jconnelly
+guid=KKGEM9SHSENQNznUz5mJ2P61uVC
+innovatorDisplayName=DotNET BOM
+innovatorItemCreationId=jconnelly
+innovatorItemVersionId=1
+innovatorLastModifiedUser=jconnelly
+innovatorName=DotNET BOM
+isSystemTemplate=true
+subType=Management Property Category
+target=Repository
+type=Management Properties Definition

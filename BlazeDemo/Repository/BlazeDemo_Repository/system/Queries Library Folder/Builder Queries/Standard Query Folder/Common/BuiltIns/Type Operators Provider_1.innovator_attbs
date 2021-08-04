@@ -1,0 +1,25 @@
+#Extended attributes for Innovator file-based repository (directory: 'Type Operators Provider_1')
+#Tue Aug 03 19:00:20 MST 2021
+contentType=Provider
+entryLastCheckInTime=8/3/21 7\:00 PM
+entryLastCheckInUser=jconnelly
+guid=I65e4RAJ30fEr1nGFtRuFeRBID6
+innovatorDisplayName=Type Operators Provider
+innovatorItemCreationId=jconnelly
+innovatorItemVersionId=1
+innovatorLastModifiedUser=jconnelly
+innovatorName=Type Operators Provider_1
+isSystemTemplate=true
+managementProperty.Is\ Versioned=false
+managementProperty.Last\ Modified\ Date=
+managementProperty.Repository\ Content\ Type=Provider
+managementProperty.Repository\ Type=Type Operator
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=None
+target=SRL
+type=Type Operator
