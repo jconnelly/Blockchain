@@ -1,0 +1,21 @@
+#Extended attributes for Innovator file-based repository (directory: 'Generic Reason Code List Object Template')
+#Tue Aug 03 17:21:42 MST 2021
+contentType=Template
+entryLastCheckInTime=8/3/21 5\:21 PM
+entryLastCheckInUser=jconnelly
+guid=QyGVDMW9bYU0TYcyUUHhzxfFJg3
+innovatorDisplayName=Generic Reason Code List Object Template
+innovatorItemCreationId=jconnelly
+innovatorItemVersionId=1
+innovatorLastModifiedUser=jconnelly
+innovatorName=Generic Reason Code List Object Template
+managementProperty.Predictive\ Model\ Type=NotApplicable
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=None
+target=SRL
+type=SRL Named Object

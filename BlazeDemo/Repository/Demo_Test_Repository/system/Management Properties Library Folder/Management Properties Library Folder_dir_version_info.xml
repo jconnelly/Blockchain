@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<VersionInfoTable>
+	<ItemName>Management Properties Library Folder</ItemName>
+	<IsDirectory>true</IsDirectory>
+	<IsEntryDeleted>false</IsEntryDeleted>
+	<VersionElement VersionId="1">
+		<User>jconnelly</User>
+		<Comment>Sets up system folder</Comment>
+		<Timestamp>4 Aug 2021 00:21:34 GMT</Timestamp>
+		<EntryAttribute>
+			<AttributeKey>_@ROM_MANAGEMENT_PROPERTY_STATUS</AttributeKey>
+			<AttributeValue>QA</AttributeValue>
+		</EntryAttribute>
+		<EntryAttribute>
+			<AttributeKey>entryLastCheckInTime</AttributeKey>
+			<AttributeValue>8/3/21 5:21 PM</AttributeValue>
+		</EntryAttribute>
+		<EntryAttribute>
+			<AttributeKey>entryLastCheckInUser</AttributeKey>
+			<AttributeValue>jconnelly</AttributeValue>
+		</EntryAttribute>
+		<EntryAttribute>
+			<AttributeKey>guid</AttributeKey>
+			<AttributeValue>1LUT59yJskZwB8HTRC6f6gF5Mae</AttributeValue>
+		</EntryAttribute>
+		<EntryAttribute>
+			<AttributeKey>innovatorDisplayName</AttributeKey>
+			<AttributeValue>Management Properties Library Folder</AttributeValue>
+		</EntryAttribute>
+		<EntryAttribute>
+			<AttributeKey>innovatorItemCreationId</AttributeKey>
+			<AttributeValue>jconnelly</AttributeValue>
+		</EntryAttribute>
+		<EntryAttribute>
+			<AttributeKey>innovatorItemVersionId</AttributeKey>
+			<AttributeValue>1</AttributeValue>
+		</EntryAttribute>
+		<EntryAttribute>
+			<AttributeKey>innovatorLastModified</AttributeKey>
+			<AttributeValue>8/3/21 5:21 PM</AttributeValue>
+		</EntryAttribute>
+		<EntryAttribute>
+			<AttributeKey>innovatorName</AttributeKey>
+			<AttributeValue>Management Properties Library Folder</AttributeValue>
+		</EntryAttribute>
+		<EntryAttribute>
+			<AttributeKey>isSystemDirectory</AttributeKey>
+			<AttributeValue>true</AttributeValue>
+		</EntryAttribute>
+	</VersionElement>
+</VersionInfoTable>

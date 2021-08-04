@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<VersionInfoTable>
+	<ItemName>Template Entities</ItemName>
+	<IsDirectory>true</IsDirectory>
+	<IsEntryDeleted>false</IsEntryDeleted>
+	<VersionElement VersionId="1">
+		<User>jconnelly</User>
+		<Comment>Sets up system folder</Comment>
+		<Timestamp>4 Aug 2021 00:21:35 GMT</Timestamp>
+		<EntryAttribute>
+			<AttributeKey>entryLastCheckInTime</AttributeKey>
+			<AttributeValue>8/3/21 5:21 PM</AttributeValue>
+		</EntryAttribute>
+		<EntryAttribute>
+			<AttributeKey>entryLastCheckInUser</AttributeKey>
+			<AttributeValue>jconnelly</AttributeValue>
+		</EntryAttribute>
+		<EntryAttribute>
+			<AttributeKey>guid</AttributeKey>
+			<AttributeValue>1MmcDTiHUef8yaS2um8zXLQ99NQ</AttributeValue>
+		</EntryAttribute>
+		<EntryAttribute>
+			<AttributeKey>innovatorDisplayName</AttributeKey>
+			<AttributeValue>TemplateEntitiesFolder</AttributeValue>
+		</EntryAttribute>
+		<EntryAttribute>
+			<AttributeKey>innovatorItemCreationId</AttributeKey>
+			<AttributeValue>jconnelly</AttributeValue>
+		</EntryAttribute>
+		<EntryAttribute>
+			<AttributeKey>innovatorItemVersionId</AttributeKey>
+			<AttributeValue>1</AttributeValue>
+		</EntryAttribute>
+		<EntryAttribute>
+			<AttributeKey>innovatorLastModified</AttributeKey>
+			<AttributeValue>8/3/21 5:21 PM</AttributeValue>
+		</EntryAttribute>
+		<EntryAttribute>
+			<AttributeKey>innovatorName</AttributeKey>
+			<AttributeValue>Template Entities</AttributeValue>
+		</EntryAttribute>
+		<EntryAttribute>
+			<AttributeKey>isNameLocalized</AttributeKey>
+			<AttributeValue>true</AttributeValue>
+		</EntryAttribute>
+		<EntryAttribute>
+			<AttributeKey>isSystemDirectory</AttributeKey>
+			<AttributeValue>true</AttributeValue>
+		</EntryAttribute>
+		<EntryAttribute>
+			<AttributeKey>resourceBundle</AttributeKey>
+			<AttributeValue>com.blazesoft.template.repository.properties.strings</AttributeValue>
+		</EntryAttribute>
+	</VersionElement>
+</VersionInfoTable>

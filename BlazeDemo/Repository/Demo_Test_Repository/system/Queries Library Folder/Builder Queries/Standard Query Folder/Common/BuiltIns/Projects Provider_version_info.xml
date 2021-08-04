@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<VersionInfoTable>
+	<ItemName>Projects Provider</ItemName>
+	<IsEntryDeleted>false</IsEntryDeleted>
+	<VersionElement VersionId="1">
+		<User>jconnelly</User>
+		<Comment>Sets up system folder</Comment>
+		<Timestamp>4 Aug 2021 00:21:39 GMT</Timestamp>
+	</VersionElement>
+</VersionInfoTable>

@@ -1,0 +1,19 @@
+#Extended attributes for Innovator file-based repository (directory: 'System Library_1')
+#Tue Aug 03 17:21:40 MST 2021
+contentType=Fixed
+entryLastCheckInTime=8/3/21 5\:21 PM
+entryLastCheckInUser=jconnelly
+guid=1ie0zOvN2aM1BaPfZLVRqRQ2p5N
+innovatorDisplayName=System Library
+innovatorItemCreationId=jconnelly
+innovatorItemType=Innovator instance
+innovatorItemVersionId=1
+innovatorLastModifiedUser=jconnelly
+innovatorName=System Library_1
+innovatorShortDesc=
+innovatorTemplateRef=ProjectEntityTemplate
+isSystemTemplate=true
+subType=None
+system.library.project.version=7.6.0
+target=Repository
+type=Project
