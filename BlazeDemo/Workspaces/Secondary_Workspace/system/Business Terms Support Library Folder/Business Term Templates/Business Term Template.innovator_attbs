@@ -1,0 +1,21 @@
+#Extended attributes for Innovator file-based repository (directory: 'Business Term Template')
+#Tue Aug 03 19:19:45 MST 2021
+contentType=Template
+entryLastCheckInTime=8/3/21 7\:00 PM
+entryLastCheckInUser=jconnelly
+guid=DSG71szD5AH5G0pcZCfjmcoPvq0
+innovatorDisplayName=Business Term Template
+innovatorItemCreationId=jconnelly
+innovatorItemVersionId=1
+innovatorLastModifiedUser=jconnelly
+innovatorName=Business Term Template
+managementProperty.Predictive\ Model\ Type=NotApplicable
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=Business Term
+target=SRL
+type=SRL Project Items

@@ -1,0 +1,20 @@
+#Extended attributes for Innovator file-based repository (directory: 'Comparison Query Value List Provider')
+#Tue Aug 03 19:19:48 MST 2021
+contentType=Provider
+entryLastCheckInTime=8/3/21 7\:00 PM
+entryLastCheckInUser=jconnelly
+guid=VAzUDrJcwqeflqdbdEffhnlGi8W
+innovatorDisplayName=Comparison Query Value List Provider
+innovatorItemCreationId=jconnelly
+innovatorItemVersionId=1
+innovatorLastModifiedUser=jconnelly
+innovatorName=Comparison Query Value List Provider
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=None
+target=Repository
+type=Value List

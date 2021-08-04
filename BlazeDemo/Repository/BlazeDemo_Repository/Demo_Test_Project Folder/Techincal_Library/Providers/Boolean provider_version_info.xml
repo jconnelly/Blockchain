@@ -2,6 +2,18 @@
 <VersionInfoTable>
 	<ItemName>Boolean provider</ItemName>
 	<IsEntryDeleted>false</IsEntryDeleted>
+	<VersionElement VersionId="3">
+		<User>bob</User>
+		<Comment>added comment
+</Comment>
+		<Timestamp>4 Aug 2021 02:40:24 GMT</Timestamp>
+	</VersionElement>
+	<VersionElement VersionId="2">
+		<User>jconnelly</User>
+		<Comment>Testing workspaces
+</Comment>
+		<Timestamp>4 Aug 2021 02:36:11 GMT</Timestamp>
+	</VersionElement>
 	<VersionElement VersionId="1">
 		<User>jconnelly</User>
 		<Comment>New project folders and files</Comment>

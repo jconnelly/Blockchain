@@ -1,0 +1,21 @@
+#Extended attributes for Eclipse file-based repository (directory: 'Boolean provider')
+#Tue Aug 03 19:40:24 MST 2021
+contentType=Provider
+entryLastCheckInTime=8/3/21 7\:40 PM
+entryLastCheckInUser=bob
+guid=4VYFEj5ACWTxEIKoDPLus5ZWPuu
+innovatorDisplayName=Boolean provider
+innovatorItemCreationId=jconnelly
+innovatorItemVersionId=3
+innovatorLastModifiedUser=bob
+innovatorName=Boolean provider
+managementProperty.Predictive\ Model\ Type=NotApplicable
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=None
+target=SRL
+type=Boolean

@@ -1,0 +1,22 @@
+#Extended attributes for Innovator file-based repository (directory: 'Predictive Model Type')
+#Tue Aug 03 19:31:12 MST 2021
+contentType=Template
+entryLastCheckInTime=8/3/21 7\:00 PM
+entryLastCheckInUser=jconnelly
+guid=5gA1ChxzJ3XjONMN1nKP0yEWHbW
+innovatorDisplayName=Predictive Model Type
+innovatorItemCreationId=jconnelly
+innovatorItemVersionId=1
+innovatorLastModifiedUser=jconnelly
+innovatorName=Predictive Model Type
+isSystemTemplate=true
+managementProperty.Predictive\ Model\ Type=NotApplicable
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=Management Property
+target=Repository
+type=Management Properties Definition

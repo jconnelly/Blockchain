@@ -1,0 +1,15 @@
+#Extended attributes for Innovator file-based repository (directory: 'Repository Subtype')
+#Tue Aug 03 19:31:12 MST 2021
+contentType=Template
+entryLastCheckInTime=8/3/21 7\:00 PM
+entryLastCheckInUser=jconnelly
+guid=1dIhVhmLphsz9XtMbWGV2yA13ea
+innovatorDisplayName=Repository Subtype
+innovatorItemCreationId=jconnelly
+innovatorItemVersionId=1
+innovatorLastModifiedUser=jconnelly
+innovatorName=Repository Subtype
+isSystemTemplate=true
+subType=Management Property
+target=Repository
+type=Management Properties Definition

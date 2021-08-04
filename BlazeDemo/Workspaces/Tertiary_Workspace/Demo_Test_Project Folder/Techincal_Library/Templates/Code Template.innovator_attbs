@@ -1,0 +1,21 @@
+#Extended attributes for Eclipse file-based repository (directory: 'Code Template')
+#Tue Aug 03 19:38:27 MST 2021
+contentType=Template
+entryLastCheckInTime=8/3/21 7\:09 PM
+entryLastCheckInUser=jconnelly
+guid=7a13NZWNtwwcBdFEifPaPUYddfu
+innovatorDisplayName=Code Template
+innovatorItemCreationId=jconnelly
+innovatorItemVersionId=2
+innovatorLastModifiedUser=jconnelly
+innovatorName=Code Template
+managementProperty.Predictive\ Model\ Type=NotApplicable
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=None
+target=SRL
+type=SRL Code
