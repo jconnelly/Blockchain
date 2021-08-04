@@ -1,4 +1,4 @@
-#Extended attributes for Eclipse file-based repository (directory: 'Code Template')
+#Extended attributes for Innovator file-based repository (directory: 'Code Template_2')
 #Tue Aug 03 19:09:46 MST 2021
 contentType=Template
 entryLastCheckInTime=8/3/21 7\:09 PM
@@ -8,6 +8,7 @@ innovatorDisplayName=Code Template
 innovatorItemCreationId=jconnelly
 innovatorItemVersionId=2
 innovatorLastModifiedUser=jconnelly
+innovatorName=Code Template_2
 managementProperty.Predictive\ Model\ Type=NotApplicable
 managementProperty.Source\ Reference.filterVH=
 managementProperty.Source\ Reference.locationVH=

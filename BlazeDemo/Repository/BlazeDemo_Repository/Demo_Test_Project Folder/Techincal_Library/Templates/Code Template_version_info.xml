@@ -2,6 +2,11 @@
 <VersionInfoTable>
 	<ItemName>Code Template</ItemName>
 	<IsEntryDeleted>false</IsEntryDeleted>
+	<VersionElement VersionId="2">
+		<User>jconnelly</User>
+		<Comment>Update on GIT repo</Comment>
+		<Timestamp>4 Aug 2021 02:09:46 GMT</Timestamp>
+	</VersionElement>
 	<VersionElement VersionId="1">
 		<User>jconnelly</User>
 		<Comment>New project folders and files</Comment>
